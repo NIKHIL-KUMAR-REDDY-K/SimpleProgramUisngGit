@@ -32,7 +32,7 @@ namespace SimpleProgramUisngGit
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Glad Welcome to the git hub");
+                    await context.Response.WriteAsync("Greetings!! from me");
                 });
             });
         }
