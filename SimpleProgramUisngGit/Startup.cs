@@ -32,7 +32,7 @@ namespace SimpleProgramUisngGit
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Greetings!! from me");
+                    await context.Response.WriteAsync("revert is performing");
                 });
             });
         }
